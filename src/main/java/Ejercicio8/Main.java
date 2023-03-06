@@ -29,7 +29,7 @@ public class Main {
             
             if(a instanceof Dado){
                 
-                ((Dado) a).metodoDado(); //Conversion explicita (se ve en el codigo)
+                ((Dado) a).metodoDado(); //Conversion explicita (se ve en el codigo )
             }
             
         }
