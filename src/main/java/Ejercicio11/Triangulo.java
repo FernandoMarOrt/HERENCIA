@@ -19,5 +19,12 @@ public class Triangulo extends Figura {
         
         return (base * altura) /2;
     }
+
+    @Override
+    public String toString() {
+        return "Triangulo{" + '}';
+    }
+    
+    
     
 }

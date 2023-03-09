@@ -20,4 +20,10 @@ public class Romboide extends Figura {
         return base * altura;
     }
 
+    @Override
+    public String toString() {
+        return "Romboide{" + '}';
+    }
+
+    
 }

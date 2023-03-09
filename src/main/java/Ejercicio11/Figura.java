@@ -12,6 +12,7 @@ public abstract class Figura {
     
     protected int base;
     protected int altura;
+    
 
     public Figura(int base, int altura) {
         this.base = base;
