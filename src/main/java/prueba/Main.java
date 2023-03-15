@@ -65,15 +65,17 @@ public class Main {
         CriterioPeso criterio = new CriterioPeso();
 
 //        Collections.sort(listaSillas, criterio);
-        Collections.sort(listaSillas, new Comparator<Silla>() {
-            @Override
-            public int compare(Silla o1, Silla o2) {
 
-                return Double.compare(o1.peso, o2.peso);
-
-            }
-        });
-        
+//  TODO ESTO SE RESUME EN LO DE ABAJO CON LA LAMBDA
+//        Collections.sort(listaSillas, new Comparator<Silla>() {
+//            @Override
+//            public int compare(Silla o1, Silla o2) {
+//
+//                return Double.compare(o1.peso, o2.peso);
+//
+//            }
+//        });
+//        
         
         Collections.sort(listaSillas,(si1,si2)->Double.compare(si1.peso, si2.peso));
 
